@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(177, 216, 203);
+    margin: 0px;
+    padding: 0px;
+}
+.main-container{
+    display: flex;
+    flex-direction: column;
+    height: 60vh;
+    width: 50vh;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    margin: 20vh;
+    margin-left: 70vh;
+    background-color: white;
+    padding: 10px;
+    
+}
+
+button{
+     font-size: x-large;
+    width: 65px;
+    height: 50px;
+    background-color: rgb(52, 52, 252);
+    margin-top: 2px;
+}
+button:hover{
+    background-color: rgb(203, 241, 165);
+}
+.operators{
+
+    display: flex;
+    margin-top: 8px;
+}
+.digits{
+    display: flex;
+    flex-wrap: wrap;
+}
